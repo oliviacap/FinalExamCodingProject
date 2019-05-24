@@ -22,4 +22,5 @@ public class LoanTest {
 		Loan1 = new Loan(loanAmount, interestRate, nbrOfYears, additionalPayment, firstPaymentDate, bInterestCalc, FutureValue);
 	}
 
+	
 }
