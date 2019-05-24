@@ -19,7 +19,7 @@ public class LoanTest {
 		boolean bInterestCalc = false;
 		double futureValue = 0;
 		
-		Loan 1 = new Loan(loanAmount, interestRate, nbrOfYears, additionalPayment, firstPaymentDate, bInterestCalc, FutureValue);
+		Loan1 = new Loan(loanAmount, interestRate, nbrOfYears, additionalPayment, firstPaymentDate, bInterestCalc, FutureValue);
 	}
 
 }

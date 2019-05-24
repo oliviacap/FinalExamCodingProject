@@ -5,6 +5,7 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 //import java.util.Date;
 //import java.util.LinkedList;
+import java.util.Date;
 
 import org.apache.poi.ss.formula.functions.*;
 //import org.springframework.expression.ParseException;
@@ -99,6 +100,11 @@ public class Loan {
 		BigDecimal bd = new BigDecimal(Double.toString(value));
 		bd = bd.setScale(places, RoundingMode.HALF_UP);
 		return bd.doubleValue();
+	}
+
+	public static Date parseDate(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
