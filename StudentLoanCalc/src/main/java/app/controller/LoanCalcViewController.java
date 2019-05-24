@@ -54,8 +54,6 @@ public class LoanCalcViewController implements Initializable   {
 	/**
 	 * btnCalcLoan - Fire this event when the button clicks
 	 * 
-	 * @version 1.0
-	 * @param event
 	 */
 	@FXML
 	private void btnCalcLoan(ActionEvent event) {
